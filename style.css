@@ -119,9 +119,19 @@ ul > li:before {
 }
 
 
-.school span {
-  color: #A7B8BF;
+.school, .job-title {
+  text-transform: capitalize;
 }
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline lowercase;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
 
 footer {
  padding: 1em;
